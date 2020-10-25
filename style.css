@@ -1,0 +1,88 @@
+*{margin:0; padding: 0; list-style-type: none;}
+body{
+    background-color:greenyellow;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    margin:0; padding: 0;
+}
+h1{
+    text-align:center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#01234c;
+}
+p{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+ul{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+.main-section{
+    background-color: #01234c;
+    color:#ffffff;
+}
+
+h3 {position: center; justify-content: center; display: flex; align-items: center;}
+
+form{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; position: center; justify-content: center; align-items: center; text-align: center;
+}
+
+.nav {width: 100%; background: green; height: 40px; text-decoration: none;}
+
+.hav {width: 100%; background: DarkCyan; height: 40px; text-decoration: none;}
+
+ul{ list-style: none; padding: 0; margin: 0; position: absolute;}
+
+ul li{float: left; margin-top: 5px; }
+
+ul li a{ width: 150px; color: aliceblue; display: block; text-decoration: none; font-size: 20px; padding: 2px; border-radius: 10px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: bold; position: center; justify-content: center; align-items: center; text-align: center;}
+
+a:hover{background: lightblue; }
+
+ul li ul {background: darkgreen; }
+
+.challenges{background: darkcyan; }
+
+ul li ul li {float: none; }
+
+ul li ul{display:none; }
+
+ul li:hover ul{display:block;}
+
+#btn {width: 600; height:30; position: center; justify-content: center; display: center; align-items: center; padding: 5px 50px; color: forestgreen; background: DarkSeaGreen; text-align: center;}
+
+#main-header {background: blue;}
+
+.head {background: blue;}
+
+
+
+
+.slider {width: 1350px; height: 500px; background: url(STEAM2.png); margin: 0px auto; animation: slide 20s infinite; }
+    
+
+    @keyframes slide{
+        25%{
+            background:url(STEAM2.png);
+        }
+        50%{
+            background:url(cropped_image.png);
+        }
+        75%{
+            background:url(the.png);
+        }
+        100%{
+            background:url(stem2.png);
+        }
+    }
+
+ul.downloads li{background: #01234c; border-top: 3px solid #a6d0ef; position: relative;}
+
+#Os:hover .region{display: block; position:absolute;}
+
+
+
